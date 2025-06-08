@@ -1,7 +1,7 @@
 public class Palindrome {
 
     public static void main(String[] ar){
-            System.out.println(isPalindrome("Rotor"));
+            System.out.println(isPalindrome("level"));
     }
     static boolean isPalindrome(String s){
         String str=s.toLowerCase().trim();
