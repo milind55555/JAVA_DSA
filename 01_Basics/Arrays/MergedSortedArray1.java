@@ -5,6 +5,7 @@ public class MergedSortedArray1{
         int[] nums2 = {2, 5, 6};
         int m = 3;
         int n = 3;
+        
 
         merge(nums1, m, nums2, n); // pass correct m here
         System.out.print("Merged array: ");
