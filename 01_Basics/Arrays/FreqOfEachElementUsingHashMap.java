@@ -17,8 +17,8 @@ public class FreqOfEachElementUsingHashMap {
 
         }
         for(Map.Entry entry:hm.entrySet()){
-            System.out.println("Element || Frequency");
-            System.out.println(entry.getKey()+" "+entry.getValue());
+            System.out.print("Element || Frequency: ");
+            System.out.println(entry.getKey()+" || "+entry.getValue());
         }
 
     }
